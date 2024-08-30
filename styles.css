@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero, .about, .experience {
+    background-color: #fff;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* home.css */
+
+.kristian img{
+    width: 500px;
+    height: 20vh;
+}
+
+#heading-intro{
+    font-size: 50px;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.img-container{
+    border: 2px solid brown;
+}
+
+#p-heading {
+    font-size: 20px;
+    font-weight:400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* experience.css */
+
+.text{
+    text-align: left;
+}
+
+.experience{
+    display: flex; 
+    flex-direction: column;
+}
